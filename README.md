@@ -5,7 +5,7 @@ The algorithm is described in this paper: The Byzantine Generals Problem - Lesli
 <br>
 
 <h2>Execution</h2>
-Invoking the executable requires 3 command line arguments: Recursion level, number of generals, and the commander's order. The recursion level specifies the number of message passing rounds, this must be less than the (number of generals) - 1. The commander's order must be either an "A" (Attack) or "R" (Retreat).
+Invoking the executable requires 3 command line arguments: Recursion level, number of generals, and the commander's order. The recursion level specifies the number of message passing rounds, this must be less than the (number of generals) - 1. The commander's order must be either an "A" (Attack) or "R" (Retreat). Invoke as: BGenerals <recursion_level> <numGenerals> <A | R>
 
 <br>
 <br>
